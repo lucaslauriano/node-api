@@ -10,8 +10,6 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-requireDir('./src/models');
-
 // Routes
 app.use('/api', require('./src/routes'));
 

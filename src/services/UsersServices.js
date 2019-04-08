@@ -80,6 +80,10 @@ class Users {
     const user = {
       id: json.id,
       login: json.login,
+      name: json.name,
+      bio: json.bio,
+      avatar: avatar,
+      location: json.location,
       url: json.html_url,
       created: json.created_at
     };
