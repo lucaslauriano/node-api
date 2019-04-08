@@ -48,7 +48,7 @@ class Users {
       if (since) {
         path =
           env.github_api +
-          `?since=${since}&client_id=env.github_user_id&client_secret=env.github_user_key'`;
+          `?since=${since}&per_page=${10}&client_id=env.github_user_id&client_secret=env.github_user_key'`;
       }
     }
 
