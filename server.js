@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+require('dotenv').load();
 const requireDir = require('require-dir');
 
 //Iniciando o App
