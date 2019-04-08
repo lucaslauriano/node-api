@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const requireDir = require('require-dir');
-require('custom-env').env();
 
 //Iniciando o App
 const app = express();

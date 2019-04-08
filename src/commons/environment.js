@@ -1,5 +1,3 @@
-require('custom-env').env();
-
 module.exports = {
   server: process.env.DEV_SERVER,
   github_api: process.env.GITHUB_API_URL,
