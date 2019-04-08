@@ -82,7 +82,7 @@ class Users {
       login: json.login,
       name: json.name,
       bio: json.bio,
-      avatar: avatar,
+      avatar: avatar_url,
       location: json.location,
       url: json.html_url,
       created: json.created_at
