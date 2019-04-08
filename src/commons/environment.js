@@ -1,5 +1,4 @@
 require('custom-env').env();
-require('dotenv').load();
 
 module.exports = {
   server: process.env.DEV_SERVER,
